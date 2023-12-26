@@ -28,7 +28,7 @@ $hallo = query("SELECT * FROM hero");
       <ul class="navbar">
         <li><a href="#home">Home</a></li>
         <li><a href="#pricing">Pricing</a></li>
-        <li><a href="#layanan">Linggom AI</a></li>
+        <li><a href="http://localhost:3000/">Linggom AI</a></li>
         <li><a href="webeditor">Web Editor</a></li>
       </ul>
     </header>
@@ -250,7 +250,7 @@ $hallo = query("SELECT * FROM hero");
           <div class="col">
             <h2>Links</h2>
             <a href=""><p>Pricing</p></a>  
-            <a href=""><p>Linggom AI</p></a>  
+            <a href="http://localhost:3000/"><p>Linggom AI</p></a>  
             <a href=""><p>Web Editor</p></a>  
           </div>
           <div class="col">
