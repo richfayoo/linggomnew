@@ -1,0 +1,191 @@
+/* ImageGenerationForm.css */
+
+.container {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f8f8f8;
+    padding: 170px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0);
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+
+  sp1 {
+    color: #ff8800;
+  }
+  span {
+    color: #E16140;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .gen-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex;
+    max-width: 450px;
+  }
+  
+  input[type="text"] {
+    text-align: center;
+    width: 100%;
+    height: 40px; 
+    padding: 0px;
+    margin-bottom: 35px;
+    border: 1px solid #ccc;
+    border-radius: 120px;
+    font-size: 16px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #FF9B50;
+    color: #fff;
+    
+    border: none;
+    border-radius: 50px; /* Use a larger border-radius to make it oval */
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  
+  .loading {
+    font-size: 18px;
+    color: #FF9B50;
+    margin-top: 20px;
+  }
+  
+  .result-image {
+    margin-top: 20px;
+  }
+  
+  img {
+    max-width: 100%;
+    border: 1px solid #cccccc00;
+    border-radius: 5px;
+  }
+
+  /* Tambahkan ke file CSS Anda */
+
+.select-modern {
+    background-color: orange;
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 39px;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+  }
+  
+  .select-modern option {
+    background-color: orange;
+    color: white;
+  }
+  
+  /* Tabel dengan warna oranye */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    border: 1px solid orange;
+    padding: 8px;
+    text-align: left;
+  }
+
+  label {
+    font: Halvetica;
+    font-size: 16px;
+    text-align: justify;
+    color: #666;
+    margin-bottom:5px;
+    font: halvetica;
+  }
+  
+  th {
+    background-color: orange;
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #ddd;
+  }
+  
+  .logo-container {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+  }
+  use-design-button{
+    position: absolute;
+    top: 25px;
+    right: 25px;
+  }
+  .logo {
+    width: 150px; /* Adjust the logo size as needed */
+    height: auto;
+  }
+  .gen-form input[name="object"] {
+    margin-bottom: 30px;
+  }
+  .gen-form select[name="type"] {
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  /* ImageGenerationForm.css */
+
+/* ... Other styles ... */
+
+.form-and-result {
+  display: flex;
+  flex-direction: row; /* Display form and result side by side */
+  align-items: flex-start;
+}
+.usethis{
+  padding: 10px 20px;
+  background-color: #FF9B50;
+  color: #fff;
+  border: none;
+  border-radius: 50px; /* Use a larger border-radius to make it oval */
+  font-size: 16px;
+  cursor: pointer;
+}
+.gen-form {
+  flex: 1; /* Allow form to grow and take available space */
+  display: flex;
+  flex-direction: column;
+  align-items: flex;
+  max-width: 450px;
+}
+
+.output {
+  flex: 1; /* Allow output to grow and take available space */
+  margin-left: 20px; /* Add some space between form and output */
+}
+
+/* ... Other styles ... */
